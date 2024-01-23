@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   background-image: url(https://wallpapers.com/images/hd/perfect-sunset-landscape-jd53jyxh63erpsje.jpg);
+}
+
+.main{
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.05);
+    height: 55vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-left: 5%;
+    font-size: 1.9rem;
+}
+
+input{
+    width: 20vw;
+    margin-left: 5%;
+
+   
+}
+
+#operation{
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#first{
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#second{
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+
+button{
+    width: 10vw;
+    margin-left: 20%;
+    font-size: 1.7rem;
+}
+
+#result{
+    font-size: 1rem;
+    background-color: white;
+    margin-top: 4%;
+}
+
+
